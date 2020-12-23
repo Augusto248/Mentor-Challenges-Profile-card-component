@@ -3,6 +3,7 @@ body {
   height: 100vh;
   background-color: #19a1ad;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Kumbh Sans", sans-serif;
@@ -87,4 +88,10 @@ p {
 
 .card__statsName {
   color: #80808d;
+}
+
+.attribution {
+  display: block;
+  text-align: center;
+  margin: 30px;
 }
